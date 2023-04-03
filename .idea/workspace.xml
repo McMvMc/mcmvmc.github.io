@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c91ac1d2-8e82-4ee3-b185-8297d3f245bb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/data/3DSP_siggraphAsia2013.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Anderson2016.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ArbelaezCVPR2014.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/B3DO_ICCV_2011.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronCVPR2015.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronCVPR2019.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronCVPR2019_reviews.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronECCV2020.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronICCV2013.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronICCV2015.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronMalikCVPR2011.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronMalikCVPR2012.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronMalikCVPR2013.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronMalikECCV2012.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronMalikTPAMI2015.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronMalikTPAMI2015B.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronPRL2009.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronPooleECCV2016.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronPooleECCV2016_reviews.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronTR2010.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BarronTsaiCVPR2017.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BrooksBarronCVPR2019.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BrooksCVPR2019.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Chen2016.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Diverdi2016.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/GargICCV2019.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/GharbiSIGGRAPH2017.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Hasinoff2016.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/JonBarron-CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/JonBarron-bio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KarschCVPR2013.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Mildenhall2018.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PontTusetTPAMI2017.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Shelhamer2015.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Srinivasan2018.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/SrinivasanCVPR2019.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/SunSIGGRAPH2019.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Valentin2018.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Wadhwa2018.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ieee_fullfirstname.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/why_did_this_paper_come_out_in_2015.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/3DSP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/3DSP_160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/3DSP_160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ArbalaezCVPR2014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ArbalaezCVPR2014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/B3DO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/B3DO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BS_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BS_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2012_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2012_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2015_anim.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2015_crop_anim.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2015_crop_still.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2015_still.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2015_still.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronCVPR2015_still_blur.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronICCV2013.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronICCV2013_160.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronICCV2013_160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarronICCV2013_160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Boundary.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Boundary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/DT_edge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/DT_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ECCV2012_small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ECCV2012_still.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ECCV2012_still.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Estee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Estee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Estee_160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Estee_160_prodB2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Jitendra_faceZ_160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Jitendra_face_160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Jitendra_face_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/JonBarron.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/JonBarron_circle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MalleConv_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MalleConv_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/PABMM2015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/PABMM2015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/SIRFS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/SceneSIRFS-still.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/SceneSIRFS-still.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/SceneSIRFS.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Shelhamer2015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/aperture_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/aperture_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bd_promo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bd_promo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blocknerf_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blocknerf_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/c5_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/c5_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ccc_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ccc_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chrome160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chrome160.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chrome320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chrome320.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clean_promo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clean_promo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cs188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cvf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/darkflash_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/darkflash_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ddp_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ddp_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/deepburst_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/deepburst_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diverdi_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diverdi_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dpzlearn_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dpzlearn_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dreamfield_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dreamfield_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dreamfusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dreamfusion.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dualdefocus_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dualdefocus_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dualfont_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dualfont_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dualrefl_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dualrefl_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fast_texture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fast_texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ffcc_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ffcc_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flare_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flare_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/font_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/font_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/friendly_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/friendly_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hdrnet_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hdrnet_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hdrp_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hdrp_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hnerf_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hnerf_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hotdog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hotdog.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hypernerf_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hypernerf_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ibrnet_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ibrnet_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/inerf_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/inerf_after_cropped.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/inerf_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jump_anim.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jump_still.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/learnaf_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/learnaf_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lincoln_highres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lincoln_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lion_ff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lion_none.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/loss_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/loss_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lssr_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lssr_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mip360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mip360.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mip360_sat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mip360_sat.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mipnerf_ipe.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mipnerf_ipe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mipnerf_ipe_yellow.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mipnerf_ipe_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mira_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mira_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/motionblur_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/motionblur_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/motionstereo_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/motionstereo_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mpi_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mpi_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerd_160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerd_160.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerf_supervision.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerf_supervision.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfactor_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfactor_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfbake_15.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfbake_160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfie_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfie_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfw_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nerfw_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nightsight_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nightsight_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nlt_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nlt_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/notre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/notre_160.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nottingham.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/npil_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/npil_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pacman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pacman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/picture_square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pnf_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pnf_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/porlight_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/porlight_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/porshadmanip_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/porshadmanip_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portrait_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portrait_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portrait_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portrait_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/prl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/prl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rawnerf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rawnerf.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/refnerf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/refnerf.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/regnerf_after.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/regnerf_before.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rings_crop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rings_crop.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/safs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/safs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/safs_160.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/samurai_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/samurai_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/seal_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/skyopt_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/skyopt_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/survey_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/survey_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thresh_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thresh_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/uflow_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/uflow_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/unprocessing_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/unprocessing_after2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/unprocessing_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/unprocessing_before2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/urf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/urf.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vase_small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vase_small.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vase_still.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zipnerf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zipnerf.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/chair_sbs_path1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/drive_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/gamma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/github_pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ipe.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ipe_anim.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ipe_anim_horiz.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ipe_anim_horiz_truescale.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ipe_eqn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ipe_eqn_under.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ipe_eqn_under_pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/lego_radii_manip_slider_200p.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/lego_sbs_path1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/mic_sbs_path1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/mip_paper_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/paperclip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/pe_anim.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/pe_anim_horiz.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/pe_seq_eqn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/pe_seq_eqn_pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/rays.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/rays.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/rays_square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/scales_toy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/scales_toy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/ship_sbs_path1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/youtube_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/img/youtube_icon_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/360_paper_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/database_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/gardenvase.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/gardenvase.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/gardenvase_720.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/github_pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/youtube_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/img/youtube_icon_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mipnerf360/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/img/nottingham.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/img/nottingham.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/img/spiral_test.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/img/spiral_train.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/img/youtube_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/img/youtube_icon_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/img/zip_paper_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipnerf/js/app.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NsqWU1UBba2d81hJi9IHicKxM2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/swang146/Desktop/website&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c91ac1d2-8e82-4ee3-b185-8297d3f245bb" name="Changes" comment="" />
+      <created>1680463169000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680463169000</updated>
+      <workItem from="1680463170323" duration="8625000" />
+      <workItem from="1680493672732" duration="4671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
