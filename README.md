@@ -1,1 +1,1 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.
+This is the source code to Shengze (Mike) Wang's public academic website: https://mcmvmc.github.io/. Website template from Jon Barron: https://jonbarron.info/.
