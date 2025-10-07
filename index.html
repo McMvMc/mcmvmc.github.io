@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>Shengze (Mike) Wang</title>
+  <title>Shengze Wang</title>
   
   <meta name="author" content="Shengze Wang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,28 +19,22 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Shengze (Mike) Wang</name>
-              </p>
-              <p>I am a 3rd year PhD student at UNC Chapel Hill, advised by professor <a href="https://henryfuchs.web.unc.edu/">Henry Fuchs</a>.
-                  We want to democratize telepresence by building desktop systems at a low cost.
+                <name>Shengze Wang</name>
               </p>
               <p>
-                I did my undergrad at University of Illinois Urbana-Champaign (UIUC), where I first learned 3D vision from
-                  professor <a href="https://dhoiem.cs.illinois.edu/"> Derek Hoiem </a>. I then went to CMU for Master
-                  in Computer Vision (MSCV). After working with professor
-                  <a href="http://www.cs.cmu.edu/~kaess/">Michael Kaess</a> and Dr. Lipu Zhou at CMU, I returned to UIUC
-                  to work for <a href="https://reconstructinc.com/">Reconstruct</a> founded by
-                  professor <a href="https://dhoiem.cs.illinois.edu/"> Derek Hoiem </a> and professor
-                  <a href="https://cee.illinois.edu/directory/profile/mgolpar">Mani Golparvar-Fard</a>. At Reconstruct,
-                  I gained a lot more experience in traditional 3D reconstruction and SLAM, and I got my first patent. Much
-                  love to everybody at Reconstruct : ). I love every second there.
+                I joined NVIDIA Research in 2025 as a postdoctoral researcher, working at the intersection of 
+                Computer Vision, Graphics, and AI with a focus on modeling human geometry and behaviors for 
+                lifelike robots. 
+                My past research spans 3D reconstruction and rendering, human pose estimation, generative models, 
+                SLAM, and telepresence systems. 
               </p>
-                <p> In 2022, I interned in <a href="https://ronaldazuma.com/">Ronald Azuma</a>'s group at <a href="https://www.intel.com/content/www/us/en/research/overview.html">Intel
-                    Labs</a>. In 2018, I interned at <a href="https://www.uber.com/us/en/atg/research-and-development/perception-and-prediction/">Uber ATG</a>.
-
-                <p> <b>Fun Stuff</b>: I'm mostly a Metal/Rock&Roll guitarist, but I (try to) play other instruments
-                    when I make music. Before I joined the UIUC boxing team as a sparring partner, I did BJJ for 2 years.
-                </p>
+              <p>
+                During my Ph.D. study on telepresence systems at the University of North Carolina at Chapel Hill, I was fortunate to have been advised by 
+                professor <a href="https://henryfuchs.web.unc.edu/">Henry Fuchs</a>.  
+                Before that, I worked with professor <a href="https://dhoiem.cs.illinois.edu/"> Derek Hoiem </a> at his startup <a href="https://reconstructinc.com/">Reconstruct</a>.                
+                I obtained my Master of Science in Computer Vision (MSCV) from Carnegie Mellon University, where I worked with professor <a href="http://www.cs.cmu.edu/~kaess/">Michael Kaess</a> on SLAM systems.
+                I obtained my Bachelor of Science in Computer Engineering from University of Illinois at Urbana Champaign.
+              </p>
               <p style="text-align:center">
                 shengzew [at] cs.unc.edu</a> &nbsp/&nbsp
 <!--                <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp-->
@@ -60,15 +54,6 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p>
-                I mostly work on traditional and learning-based 3D vision (SLAM, 3D reconstruction, neural rendering).
-              </p><p>
-                  In the future, my short-term goal is to democratize telepresence via affordable desktop systems.
-              </p><p>
-                  My mid-term goal is to achieve holographic telepresence.
-              </p><p>
-                  My long-term goal is to understand memory and intelligence through neuroscience and compuational methods.
-              </p>
             </td>
           </tr>
         </tbody></table>
@@ -76,6 +61,161 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tbody>
+
+            <!-- NEW: BLADE (CVPR 2025) -->
+            <tr bgcolor="#ffffff">
+              <td style="padding:10px;width:35%;vertical-align:middle">
+                <img src='images/blade.png' alt="BLADE teaser" style="margin-top:0px; width:100%">
+              </td>
+              <td style="padding-left:10px; padding-top:30px; width:65%;vertical-align:top;">
+                <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_BLADE_Single-view_Body_Mesh_Estimation_through_Accurate_Depth_Estimation_CVPR_2025_paper.pdf">
+                  <papertitle>BLADE: Single-view Body Mesh Estimation through Accurate Depth Estimation</papertitle>
+                </a>
+                <br>
+                <b>Shengze Wang</b>, <a href="https://jeffli.site/">Jiefeng Li</a>, 
+                <a href="https://tianyeli.github.io/"></a>Tianye Li</a>, 
+                <a href="https://ye-yuan.com/"></a>Ye Yuan</a>, 
+                <a href="https://henryfuchs.web.unc.edu/">Henry Fuchs</a>, 
+                <a href="https://luminohope.org/">Koki Nagano</a>*, 
+                <a href="https://research.nvidia.com/person/shalini-de-mello">Shalini De Mello</a>*, 
+                <a href="https://research.nvidia.com/person/michael-stengel">Michael Stengel</a>* 
+                <br>
+                <em>CVPR</em>, 2025
+                &nbsp; [<a href="https://research.nvidia.com/labs/amri/projects/blade/">Project Page</a>]
+                &nbsp; [<a href="https://cvpr.thecvf.com/virtual/2025/poster/32659">CVPR</a>]
+                &nbsp; [<a href="">Code</a>]
+                &nbsp; [<a href="blade_weights.html">Weights & File Preparation</a>]
+                <p>
+                  Single-image human mesh recovery that accurately estimates perspective parameters (including <i>T<sub>z</sub></i> and focal length) from a single image, delivering SOTA pose accuracy and 2D alignment—especially for close-range views.
+                </p>
+              </td>
+            </tr>
+
+            <!-- NEW: Coherent3D (CVPR 2025) -->
+            <tr bgcolor="#ffffff">
+              <td style="padding:10px;width:35%;vertical-align:middle">
+                <img src='images/coherent3d.png' alt="Coherent3D teaser" style="margin-top:0px; width:70%;margin-left:15%;">
+              </td>
+              <td style="padding-left:10px; padding-top:30px; width:65%;vertical-align:top;">
+                <a href="https://arxiv.org/abs/2412.08684">
+                  <papertitle>Coherent3D: Coherent 3D Portrait Video Reconstruction via Triplane Fusion</papertitle>
+                </a>
+                <br>
+                <b>Shengze Wang</b>,  
+                <a href="https://sunshineatnoon.github.io/">Xueting Li</a>, 
+                <a href="https://research.nvidia.com/person/chao-liu">Chao Liu</a>, 
+                <a href="https://matthew-a-chan.github.io/">Matthew Chan</a>, 
+                <a href="https://research.nvidia.com/person/michael-stengel">Michael Stengel</a>,
+                <a href="https://henryfuchs.web.unc.edu/">Henry Fuchs</a>, 
+                <a href="https://research.nvidia.com/person/shalini-de-mello">Shalini De Mello</a>*, 
+                <a href="https://luminohope.org/">Koki Nagano</a>*, 
+                <br>
+                <em>CVPR</em>, 2025
+                &nbsp; [<a href="https://research.nvidia.com/labs/amri/projects/coherent3d">Project Page</a>]
+                &nbsp; [<a href="https://cvpr.thecvf.com/virtual/2025/poster/33109">CVPR</a>]
+                <p>
+                  Fusion-based 3D portrait method that combines a canonical 3D prior with per-frame appearance to achieve temporally stable, identity-consistent 3D videos for single-camera telepresence.
+                </p>
+              </td>
+            </tr>
+
+            <tr bgcolor="#ffffff">
+              <td style="padding:10px;width:35%;vertical-align:middle">
+                <img src='images/mnaf.png' alt="MNAF teaser" style="margin-top:0px; width:100%">
+              </td>
+              <td style="padding-left:10px; padding-top:30px; width:65%;vertical-align:top;">
+                <a href="https://www.cs.unc.edu/~cpk/data/papers/Neural_acoustic_fields.pdf">
+                  <papertitle>Multimodal Neural Acoustic Fields for Immersive Mixed Reality</papertitle> <font color="red">(IEEE VRBest Paper Honorable Mention Award)</font>
+                </a>
+                <br>
+                Guansen Tong, Johnathan Chi-Ho Leung, Xi Peng, Haosheng Shi, Liujie Zheng, <b>Shengze Wang</b>, Arryn Carlos O’Brien, Ashley Paula-Ann Neall, Grace Fei, Martim Gaspar, <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula</a>
+                <br>
+                <em>IEEE TVCG</em>, 2025
+                &nbsp; [<a href="https://dl.acm.org/doi/abs/10.1109/TVCG.2025.3549898">TVCG</a>]
+                <p>
+                  Visual-acoustic fusion (“conformer”) + acoustic synthesis to learn scene acoustics and render spatial audio from novel viewpoints; improves immersive MR audio quality.
+                </p>
+              </td>
+            </tr>
+
+            <tr bgcolor="#ffffff">
+              <td style="padding:10px;width:35%;vertical-align:middle">
+                <img src='images/my3dgen.png' alt="My3DGen teaser" style="margin-top:0px; width:100%">
+              </td>
+              <td style="padding-left:10px; padding-top:30px; width:65%;vertical-align:top;">
+                <a href="https://openaccess.thecvf.com/content/WACV2025/papers/Qi_My3DGen_A_Scalable_Personalized_3D_Generative_Model_WACV_2025_paper.pdf">
+                  <papertitle>My3DGen: A Scalable Personalized 3D Generative Model</papertitle>
+                </a>
+                <br>
+                Luchao Qi, Jiaye Wu, Annie N. Wang, <b>Shengze Wang</b>, <a href="https://www.cs.unc.edu/~ronisen/">Roni Sengupta</a>
+                <br>
+                <em>WACV</em>, 2025
+                &nbsp; [<a href="https://my3dgen.github.io/">Project Page</a>]
+                &nbsp; [<a href="https://arxiv.org/abs/2307.05468">arXiv</a>]
+                <p>
+                  Personalized 3D prior of an individual using as few as 50 training images. My3DGen allows for novel view synthesis, semantic editing of a given face (e.g. adding a smile), and synthesizing novel appearances, all while preserving the original person's identity.
+                </p>
+              </td>
+            </tr>
+
+            <!-- NEW: TVCG 2025 journal extension of desktop telepresence -->
+            <tr bgcolor="#ffffff">
+              <td style="padding:10px;width:35%;vertical-align:middle">
+                <video preload='auto' autoplay muted loop playsinline style="margin-top:0px; width:100%">
+                  <source src="./videos/test9.mp4" type="video/mp4">
+                </video>
+              </td>
+              <td style="padding-left:10px; padding-top:30px; width:65%;vertical-align:top;">
+                <a href="https://www.computer.org/csdl/journal/tg/2025/09/10557509/1XLFWwMYZgc">
+                  <papertitle>Learning View Synthesis for Desktop Telepresence With Few RGBD Cameras</papertitle>
+                </a>
+                <br>
+                <b>Shengze Wang</b>, Ziheng Wang, Ryan Schmelzle, Liuejie Zheng,
+                <a href="https://youngjoongunc.github.io/">YoungJoong Kwon</a>,
+                <a href="https://www.cs.unc.edu/~ronisen/">Roni Sengupta</a>,
+                <a href="https://henryfuchs.web.unc.edu/">Henry Fuchs</a>
+                <br>
+                <em>IEEE TVCG</em>, 2025
+                &nbsp; [<a href="https://mcmvmc.github.io/PersonalTelepresence/">Project Page</a>]
+                &nbsp; [<a href="https://arxiv.org/abs/2304.01197">arXiv</a>]
+                <p>
+                  Journal version of your affordable desktop telepresence system (Bringing Telepresence to Every Desk, 2023): 4 consumer RGB-D cameras and a renderer that synthesizes high-quality free-viewpoint videos of both user and environment.
+                </p>
+              </td>
+            </tr>
+
+
+            <!-- NEW: AI-Mediated 3D Video Conferencing (SIGGRAPH E-Tech 2023) -->
+            <tr bgcolor="#ffffff">
+              <td style="padding:10px;width:35%;vertical-align:middle">
+                <img src='images/3dvc.png' alt="AI-Mediated 3DVC teaser" style="margin-top:0px; width:100%">
+              </td>
+              <td style="padding-left:10px; padding-top:30px; width:65%;vertical-align:top;">
+                <a href="https://research.nvidia.com/publication/2023-08_ai-mediated-3d-video-conferencing">
+                  <papertitle>AI-Mediated 3D Video Conferencing</papertitle>
+                </a>
+                <br>
+                <a href="https://research.nvidia.com/person/michael-stengel">Michael Stengel</a>, 
+                <a href="https://luminohope.org/">Koki Nagano</a>, 
+                <a href="https://research.nvidia.com/person/chao-liu">Chao Liu</a>, 
+                <a href="https://matthew-a-chan.github.io/">Matthew Chan</a>, 
+                <a href="https://alextrevithick.com/">Alex Trevithick</a>, 
+                <a href="https://research.nvidia.com/person/shalini-de-mello">Shalini De Mello</a>, 
+                <a href="https://research.nvidia.com/person/jonghyun-kim">Jonghyun Kim</a>, 
+                <a href="https://luebke.us/">David Luebke</a>, 
+                <a href="http://amritamaz.net/">Amrita Mazumdar</a>, 
+                <b>Shengze Wang</b>
+                <a href="https://www.linkedin.com/in/mayoorejaiswal/">Mayoore Jaiswal</a>
+                <br>
+                <em>SIGGRAPH Emerging Technologies</em>, 2023
+                &nbsp; [<a href="https://research.nvidia.com/labs/nxp/3dvc-siggraph-etech/">Project Page</a>]
+                &nbsp; [<a href="https://www.youtube.com/watch?reload=9&v=sZefJHL8X_4">NVIDIA YouTube</a>]
+                &nbsp; [<a href="https://dl.acm.org/doi/10.1145/3588037.3595385">ACM DL</a>]
+                <p>
+                  We present an AI-mediated 3D video conferencing system that can reconstruct and autostereoscopically display a life-sized talking head using consumer-grade compute resources and minimal capture equipment. Our 3D capture uses a novel 3D lifting method that encodes a given 2D input into an efficient triplanar neural representation of the user, which can be rendered from novel viewpoints in real-time. Our AI-based techniques drastically reduce the cost for 3D capture, while providing a high-fidelity 3D representation on the receiver's end at the cost of traditional 2D video streaming. Additional advantages of our AI-based approach include the ability to accommodate both photorealistic and stylized avatars, and the ability to enable mutual eye contact in multi-directional video conferencing. We demonstrate our system using a tracked stereo display for a personal viewing experience as well as a light field display for a multi-viewer experience.
+                </p>
+              </td>
+            </tr>
 
             <tr bgcolor="#ffffff">
               <td style="padding:10px;width:35%;vertical-align:middle">
@@ -92,7 +232,7 @@
                 <br>
                 <b>Shengze Wang</b>, Ziheng Wang, Ryan Schmelzle, Liuejie Zheng,
                 <a href="https://youngjoongunc.github.io/">YoungJoong Kwon</a>,
-                <a href="https://www.cs.unc.edu/~ronisen/">Soumyadip Sengupta</a>,
+                <a href="https://www.cs.unc.edu/~ronisen/">Roni Sengupta</a>,
                 <a href="https://henryfuchs.web.unc.edu/">Henry Fuchs</a>
                 <br>
                 <em>arXiv</em>, 2023    [<a href="https://mcmvmc.github.io/PersonalTelepresence/">Project Page</a>][Code]
@@ -122,7 +262,7 @@
                 <a href="https://henryfuchs.web.unc.edu/">Henry Fuchs</a>,
                 <a href="https://ronaldazuma.com/">Ronald Azuma</a>
                 <br>
-                <em>arXiv</em>, 2023    [Project Page][Code]
+                <em>arXiv</em>, 2023
                 <p>
                     We discovered a <b> natural information partition </b> in 2D/3D MLPs, which stores structural
                     information in early layers and color information in later layers.

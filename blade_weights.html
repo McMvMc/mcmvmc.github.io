@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BLADE – Weights & Setup README</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📦</text></svg>">
+  <style>
+    .wrap{max-width:1000px;margin:0 auto;padding:24px}
+    .muted{color:#666}
+    .cta{display:inline-block;margin:8px 12px 0 0;padding:10px 14px;border:1px solid #ccc;border-radius:10px;text-decoration:none}
+    pre{overflow:auto;background:#f6f8fa;border:1px solid #e1e4e8;border-radius:8px;padding:12px}
+    code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    h2{margin-top:28px}
+    ul{margin-left:20px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>BLADE – Weights & Setup</h1>
+    <p class="muted">Single-view Body Mesh Estimation through Accurate Depth Estimation.</p>
+
+    <p>
+      Primary checkpoint is hosted on Hugging Face under <code>McMvMc/BLADE</code>.
+      Use the commands below or visit the model card.
+    </p>
+    <p>
+      <a class="cta" href="https://huggingface.co/McMvMc/BLADE" target="_blank" rel="noopener">🗂️ Hugging Face: McMvMc/BLADE</a>
+      <a class="cta" href="index.html">↩️ Back to Home</a>
+    </p>
+
+    <hr>
+
+    <h2>📦 Download Models</h2>
+
+    <h3>Required Models</h3>
+    <pre><code># Install HuggingFace CLI
+pip install "huggingface_hub[cli]"
+
+# Download BLADE checkpoint
+hf download McMvMc/BLADE epoch_2.pth --local-dir pretrained
+
+# Download supporting models
+hf download depth-anything/Depth-Anything-V2-Metric-Hypersim-Large depth_anything_v2_metric_hypersim_vitl.pth --local-dir pretrained/model_init_weights
+hf download ttxskk/AiOS aios_checkpoint.pth --local-dir pretrained/model_init_weights
+hf download facebook/sapiens-pose-bbox-detector rtmdet_m_8xb32-100e_coco-obj365-person-235e8209.pth --local-dir pretrained/rtmpose
+hf download facebook/sapiens-pose-1b sapiens_1b_goliath_best_goliath_AP_639.pth --local-dir pretrained/pose</code></pre>
+
+    <h3>SMPL/SMPL-X Models (Manual Download Required)</h3>
+    <p>Due to licensing restrictions, download these manually:</p>
+    <ul>
+      <li><strong>SMPL</strong>: <a href="https://smpl.is.tue.mpg.de/" target="_blank" rel="noopener">Download from official site</a> → place in <code>body_models/smpl/</code></li>
+      <li><strong>SMPL-X</strong>: <a href="https://smpl-x.is.tue.mpg.de/" target="_blank" rel="noopener">Download from official site</a> → place in <code>body_models/smplx/</code></li>
+      <li><strong>Transfer data</strong>: <a href="https://github.com/vchoutas/smplx/blob/main/transfer_model/README.md" target="_blank" rel="noopener">Download from SMPL-X repo</a> → place in <code>pretrained/transfer_data/</code></li>
+    </ul>
+
+    <h3>Expected Directory Structure</h3>
+    <pre><code>blade_repo/
+├── body_models/
+│   ├── smpl/          # SMPL models (manual download)
+│   └── smplx/         # SMPL-X models (manual download)
+├── pretrained/
+│   ├── epoch_2.pth    # BLADE checkpoint
+│   ├── model_init_weights/
+│   │   ├── depth_anything_v2_metric_hypersim_vitl.pth
+│   │   └── aios_checkpoint.pth
+│   ├── rtmpose/
+│   │   └── rtmdet_m_8xb32-100e_coco-obj365-person-235e8209.pth
+│   ├── pose/
+│   │   └── sapiens_1b_goliath_best_goliath_AP_639.pth
+│   └── transfer_data/ # SMPL conversion data (manual download)
+│       ├── smplh2smpl_def_transfer.pkl
+│       ├── smplx2smplh_deftrafo_setup.pkl
+│       ├── smpl2smplh_def_transfer.pkl
+│       ├── smplh2smplx_deftrafo_setup.pkl
+│       ├── smplx_mask_ids.npy
+│       ├── smpl2smplx_deftrafo_setup.pkl
+│       ├── smplx2smpl_deftrafo_setup.pkl
+│       └── smplx_to_smpl.pkl</code></pre>
+
+    
+  </div>
+</body>
+</html>
