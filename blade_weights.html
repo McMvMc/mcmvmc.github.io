@@ -27,6 +27,7 @@
     </p>
     <p>
       <a class="cta" href="https://huggingface.co/McMvMc/BLADE" target="_blank" rel="noopener">🗂️ Hugging Face: McMvMc/BLADE</a>
+      <a class="cta" href="https://huggingface.co/McMvMc/BLADE_backup" target="_blank" rel="noopener">🗂️ Hugging Face: McMvMc/BLADE_backup</a>
       <a class="cta" href="index.html">↩️ Back to Home</a>
     </p>
 
@@ -37,9 +38,12 @@
     <h3>Required Models</h3>
     <pre><code># Install HuggingFace CLI
 pip install "huggingface_hub[cli]"
+huggingface-cli login
 
 # Download BLADE checkpoint
 hf download McMvMc/BLADE epoch_2.pth --local-dir pretrained
+# if the above fails, try this backup repo:
+hf download McMvMc/BLADE_backup epoch_2.pth --local-dir pretrained
 
 # Download supporting models
 hf download depth-anything/Depth-Anything-V2-Metric-Hypersim-Large depth_anything_v2_metric_hypersim_vitl.pth --local-dir pretrained/model_init_weights
